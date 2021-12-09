@@ -1,0 +1,208 @@
+<!DOCTYPE html><!-- 22161037 이수진 -->
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <style media="screen">
+    @import url('https://fonts.googleapis.com/css2?family=Song+Myung&display=swap');
+    /*font-family: 'Song Myung'*/
+    @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap');
+    /*font-family: 'Noto Sans KR'*/
+      * {
+        padding: 0;
+        margin: 0;
+      }
+      img {
+        vertical-align: bottom;
+      }
+      .clear {
+        clear: both;
+      }
+      body {
+        font-family: 'Noto Sans KR';
+        background-image: url('./img/배경2.jpg');
+        background-repeat: no-repeat;
+        background-size: cover; /* 요소를 비율에 맞게 커버 */
+        background-position: center; /* 이미지를 요소의 정가운데로 처리 */
+        background-attachment: fixed; /* 스크롤바 움직일때 이미지가 따라다님 */
+      }
+      li {
+        list-style-type: none;
+      }
+      header {
+        height: 100px;
+        margin: 0 50px 10px 50px;
+        border-bottom: solid 1px white;
+      }
+      #logo {
+        float: center;
+        text-align: center;
+        margin: 25px auto;
+        /*border: solid 1px red;*/
+      }
+      #main_menu {
+        float: center;
+        text-align: center;
+        font-family: 'Song Myung';
+        font-size: 20px;
+        margin: 0 auto;
+        /*border: solid 1px red;*/
+      }
+      #main_menu li {
+        display: inline;
+        margin-left: 40px;
+        margin-right: 40px;
+      }
+      #main_menu a:link {
+        color: white;
+        text-decoration:none;
+      }
+
+      #main_menu a:visited {
+        color: white;
+        text-decoration:none;
+      }
+
+      #main_menu a:hover {
+        color: #ff4800;
+        text-decoration:none;
+      }
+      #contents {
+        margin: 0 20px 0 20px;
+        /*border: solid 1px red;*/
+      }
+      #sub_menu {
+        position: fixed;
+        float: left;
+        text-align: center;
+        border-top: solid 2px white;
+        border-bottom: solid 2px white;
+        width: 11%;
+        margin: 150px 0 0 130px;
+        /*border: solid 1px red;*/
+      }
+      #sub_menu li {
+        font-family: 'Song Myung';
+        font-size: 18px;
+        padding: 10px;
+      }
+      #sub_menu a:link {
+        color: white;
+        text-decoration: none;
+      }
+      #sub_menu a:visited {
+        color: white;
+        text-decoration: none;
+      }
+      #sub_menu a:hover {
+        color: #00c994;
+        text-decoration: none;
+      }
+      #main_contents {
+        width: 70%;
+        float: right;
+        margin: 100px 70px 150px 0;
+        color: white;
+        text-align: center;
+        /*border: solid 1px red;*/
+      }
+      table {
+        margin: 0 auto;
+        width: 70%;
+        border-top: solid 2px white;
+        border-bottom: solid 2px white;
+      }
+      td {
+        padding: 10px;
+        /*border-top: solid 1px white;
+        border-bottom: solid 1px white;*/
+        text-align: left;
+      }
+      #title {
+        font-family: 'Song Myung';
+      }
+      p {
+        font-size: 14px;
+      }
+      footer {
+        height: 120px;
+        margin: 0 50px 0 50px;
+        border-top: solid 1px white;
+      }
+      #footer_box {
+        margin: 0 20 0 20px;
+        /*border: solid 1px green;*/
+      }
+      #footer_logo {
+        float: right;
+        margin: 45px 100px 0 0;
+        /*border: solid 1px green;*/
+      }
+      #address {
+        float: left;
+        font-size: 14px;
+        margin: 45px 0 0 100px;
+        color: white;
+        /*border: solid 1px green;*/
+      }
+    </style>
+    <title></title>
+  </head>
+  <body>
+
+    <header>
+      <div id="logo">
+        <a href='index.html'><img src="./img/logo.png"></a>
+      </div>
+      <nav>
+        <ul id="main_menu">
+          <li><a href='page1.html'>프로그램 소개</a></li>
+          <li><a href='page2.html'>인물 소개</a></li>
+          <li><a href='page3.html'>갤러리</a></li>
+          <li><a href='page4.html'>OST</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section id="contents">
+      <nav id="sub_menu">
+        <ul>
+          <li><a href='page4.html'>Part 1</a></li>
+          <li><a href='page4-2.html'>▶ Part 2</a></li>
+          <li><a href='page4-3.html'>Part 3</a></li>
+          <li><a href='page4-4.html'>Part 4</a></li>
+        </ul>
+      </nav>
+      <div id="main_contents">
+        <table>
+          <tr>
+            <td colspan='2'><h2>Part 2</h2></td>
+          </tr>
+          <tr>
+            <td rowspan='3'><img src="./img/ost2.png"></td><td><h2 id="title">어찌 잊으오</h2>- 황치열</td>
+          </tr>
+          <tr>
+            <td><p>'미스터 션샤인'의 대미를 장식하는 마지막 OST "어찌 잊으오"는 무반주로 시작되는 황치열의
+                나즈막한 목소리 도입부가 마음을 쿵 내려앉게 하는 애절한 감성의 노래이다.</p></td>
+          </tr>
+          <tr>
+            <td><audio src='./ost/ost2.mp3' controls autoplay loop></audio></td>
+          </tr>
+        </table>
+      </div>
+    </section>
+    <div class="clear"></div>
+
+    <footer>
+      <div id="footer_box">
+        <ul id="address">
+          <li>Web Publishing | Second project</li>
+          <li>KayWon University 22161037 이수진</li>
+        </ul>
+        <div id="footer_logo">
+          <a href='http://tvn.tving.com/tvn'><img src="./img/tvN.png"></a>
+        </div>
+      </div>
+    </footer>
+
+  </body>
+</html>

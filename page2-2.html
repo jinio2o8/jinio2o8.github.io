@@ -1,0 +1,214 @@
+<!DOCTYPE html><!-- 22161037 이수진 -->
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <style media="screen">
+    @import url('https://fonts.googleapis.com/css2?family=Song+Myung&display=swap');
+    /*font-family: 'Song Myung'*/
+    @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap');
+    /*font-family: 'Noto Sans KR'*/
+      * {
+        padding: 0;
+        margin: 0;
+      }
+      img {
+        vertical-align: bottom;
+      }
+      .clear {
+        clear: both;
+      }
+      body {
+        font-family: 'Noto Sans KR';
+        background-image: url('./img/배경3.jpg');
+        background-repeat: no-repeat;
+        background-size: cover; /* 요소를 비율에 맞게 커버 */
+        background-position: center; /* 이미지를 요소의 정가운데로 처리 */
+        background-attachment: fixed; /* 스크롤바 움직일때 이미지가 따라다님 */
+      }
+      li {
+        list-style-type: none;
+      }
+      header {
+        height: 100px;
+        margin: 0 50px 10px 50px;
+        border-bottom: solid 1px white;
+      }
+      #logo {
+        float: center;
+        text-align: center;
+        margin: 25px auto;
+        /*border: solid 1px red;*/
+      }
+      #main_menu {
+        float: center;
+        text-align: center;
+        font-family: 'Song Myung';
+        font-size: 20px;
+        margin: 0 auto;
+        /*border: solid 1px red;*/
+      }
+      #main_menu li {
+        display: inline;
+        margin-left: 40px;
+        margin-right: 40px;
+      }
+      #main_menu a:link {
+        color: white;
+        text-decoration:none;
+      }
+
+      #main_menu a:visited {
+        color: white;
+        text-decoration:none;
+      }
+
+      #main_menu a:hover {
+        color: #ff4800;
+        text-decoration:none;
+      }
+      #contents {
+        margin: 0 20px 0 20px;
+        /*border: solid 1px red;*/
+      }
+      #sub_menu {
+        position: fixed;
+        float: left;
+        text-align: center;
+        border-top: solid 2px white;
+        border-bottom: solid 2px white;
+        width: 11%;
+        margin: 150px 0 0 130px;
+        /*border: solid 1px red;*/
+      }
+      #sub_menu li {
+        font-family: 'Song Myung';
+        font-size: 18px;
+        padding: 10px;
+      }
+      #sub_menu a:link {
+        color: white;
+        text-decoration: none;
+      }
+      #sub_menu a:visited {
+        color: white;
+        text-decoration: none;
+      }
+      #sub_menu a:hover {
+        color: #00c994;
+        text-decoration: none;
+      }
+      #main_contents {
+        width: 70%;
+        float: right;
+        margin: 100px 70px 150px 0;
+        color: white;
+        text-align: center;
+        /*border: solid 1px red;*/
+      }
+      table {
+        margin: 0 auto;
+        width: 70%;
+        border-top: solid 2px white;
+        border-bottom: solid 2px white;
+      }
+      td {
+        padding: 20px;
+        /*border-top: solid 1px white;
+        border-bottom: solid 1px white;*/
+        text-align: left;
+      }
+      p {
+        font-size: 14px;
+      }
+      #said {
+        font-family: 'Song Myung';
+        font-size: 20px;
+      }
+      footer {
+        height: 120px;
+        margin: 0 50px 0 50px;
+        border-top: solid 1px white;
+      }
+      #footer_box {
+        margin: 0 20 0 20px;
+        /*border: solid 1px green;*/
+      }
+      #footer_logo {
+        float: right;
+        margin: 45px 100px 0 0;
+        /*border: solid 1px green;*/
+      }
+      #address {
+        float: left;
+        font-size: 14px;
+        margin: 45px 0 0 100px;
+        color: white;
+        /*border: solid 1px green;*/
+      }
+    </style>
+    <title></title>
+  </head>
+  <body>
+
+    <header>
+      <div id="logo">
+        <a href='index.html'><img src="./img/logo.png"></a>
+      </div>
+      <nav>
+        <ul id="main_menu">
+          <li><a href='page1.html'>프로그램 소개</a></li>
+          <li><a href='page2.html'>인물 소개</a></li>
+          <li><a href='page3.html'>갤러리</a></li>
+          <li><a href='page4.html'>OST</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section id="contents">
+      <nav id="sub_menu">
+        <ul>
+          <li><a href='page2.html'>인물 관계도</a></li>
+          <li><a href='page2-2.html'>▶ 고애신</a></li>
+          <li><a href='page2-3.html'>유진 초이</a></li>
+          <li><a href='page2-4.html'>구동매</a></li>
+          <li><a href='page2-5.html'>김희성</a></li>
+          <li><a href='page2-6.html'>쿠도 히나</a></li>
+        </ul>
+      </nav>
+      <div id="main_contents">
+        <table>
+          <tr>
+            <td rowspan='3'><img src="./img/인물1.jpg"></td><td><h2>고애신</h2>사대부 영애</td>
+          </tr>
+          <tr>
+            <td><p id="said">"나도 그렇소 나도 꽃으로 살고 있소.<br> 다만 나는 불꽃이오."</p></td>
+          </tr>
+          <tr>
+            <td><p>애신의 방에서 서책 갈피에 몰래 숨겨놓은 ‘한성순보’와 ‘독닙신문’이 발각된 날,
+                조부의 눈빛은 노여움이 아니라 슬픔이었다. 멧짐승 고기가 먹고 싶으니 포수를
+                찾아가란 조부의 심부름은 그날부터였다. 조부의 당부는 딱 하나였다. 살아 남거라.
+                애신의 나이 스물이었고, 그날부터 장포수는 애신의 스승이었다. 장포수는 화약 다루는 법,
+                총기류 다루는 법, 사격술 등을 가르쳤고 9년이 흐른 지금, 애신의 타깃은 빗나가는 법이 없었다.
+                그런 애신이 시시하지 않은 남자를 만난 건 한성에 첫 가로등이 켜지던 순간이었다.
+                이기적인 배려, 차가워서 다정한, 자신의 조국은 미국이라는, 자기 생에서도 이방인인 사내,
+                유진이었다. 그 사내의 심장이 자신의 타깃이 되지 않기를 간절히 비는 애신이었다...</p></td>
+          </tr>
+        </table>
+      </div>
+    </section>
+    <div class="clear"></div>
+
+    <footer>
+      <div id="footer_box">
+        <ul id="address">
+          <li>Web Publishing | Second project</li>
+          <li>KayWon University 22161037 이수진</li>
+        </ul>
+        <div id="footer_logo">
+          <a href='http://tvn.tving.com/tvn'><img src="./img/tvN.png"></a>
+        </div>
+      </div>
+    </footer>
+
+  </body>
+</html>

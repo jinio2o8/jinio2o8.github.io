@@ -1,0 +1,217 @@
+<!DOCTYPE html><!-- 22161037 이수진 -->
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <style media="screen">
+    @import url('https://fonts.googleapis.com/css2?family=Song+Myung&display=swap');
+    /*font-family: 'Song Myung'*/
+    @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap');
+    /*font-family: 'Noto Sans KR'*/
+      * {
+        padding: 0;
+        margin: 0;
+      }
+      img {
+        vertical-align: bottom;
+      }
+      .clear {
+        clear: both;
+      }
+      body {
+        font-family: 'Noto Sans KR';
+        background-image: url('./img/배경5.jpg');
+        background-repeat: no-repeat;
+        background-size: cover; /* 요소를 비율에 맞게 커버 */
+        background-position: center; /* 이미지를 요소의 정가운데로 처리 */
+        background-attachment: fixed; /* 스크롤바 움직일때 이미지가 따라다님 */
+      }
+      li {
+        list-style-type: none;
+      }
+      header {
+        height: 100px;
+        margin: 0 50px 10px 50px;
+        border-bottom: solid 1px white;
+      }
+      #logo {
+        float: center;
+        text-align: center;
+        margin: 25px auto;
+        /*border: solid 1px red;*/
+      }
+      #main_menu {
+        float: center;
+        text-align: center;
+        font-family: 'Song Myung';
+        font-size: 20px;
+        margin: 0 auto;
+        /*border: solid 1px red;*/
+      }
+      #main_menu li {
+        display: inline;
+        margin-left: 40px;
+        margin-right: 40px;
+      }
+      #main_menu a:link {
+        color: white;
+        text-decoration:none;
+      }
+
+      #main_menu a:visited {
+        color: white;
+        text-decoration:none;
+      }
+
+      #main_menu a:hover {
+        color: #ff4800;
+        text-decoration:none;
+      }
+      #contents {
+        margin: 0 20px 0 20px;
+        /*border: solid 1px red;*/
+      }
+      #sub_menu {
+        position: fixed;
+        float: left;
+        text-align: center;
+        border-top: solid 2px white;
+        border-bottom: solid 2px white;
+        width: 11%;
+        margin: 150px 0 0 130px;
+        /*border: solid 1px red;*/
+      }
+      #sub_menu li {
+        font-family: 'Song Myung';
+        font-size: 18px;
+        padding: 10px;
+      }
+      #sub_menu a:link {
+        color: white;
+        text-decoration: none;
+      }
+      #sub_menu a:visited {
+        color: white;
+        text-decoration: none;
+      }
+      #sub_menu a:hover {
+        color: #00c994;
+        text-decoration: none;
+      }
+      #main_contents {
+        width: 70%;
+        float: right;
+        margin: 100px 70px 150px 0;
+        color: white;
+        text-align: center;
+        /*border: solid 1px red;*/
+      }
+      #hz {
+        font-family: 'Song Myung';
+        font-size: 24px;
+        margin: 0 100px 0 100px;
+        border-left: solid 1px white;
+        border-right: solid 1px white;
+      }
+      table {
+        margin: 0 auto;
+        width: 85%;
+        border-top: solid 2px white;
+        border-bottom: solid 2px white;
+      }
+      td {
+        padding: 10px;
+        /*border-top: solid 1px white;
+        border-bottom: solid 1px white;*/
+        text-align: center;
+      }
+      p {
+        font-size: 14px;
+      }
+      footer {
+        height: 120px;
+        margin: 0 50px 0 50px;
+        border-top: solid 1px white;
+      }
+      #footer_box {
+        margin: 0 20 0 20px;
+        /*border: solid 1px green;*/
+      }
+      #footer_logo {
+        float: right;
+        margin: 45px 100px 0 0;
+        /*border: solid 1px green;*/
+      }
+      #address {
+        float: left;
+        font-size: 14px;
+        margin: 45px 0 0 100px;
+        color: white;
+        /*border: solid 1px green;*/
+      }
+    </style>
+    <title></title>
+  </head>
+  <body>
+
+    <header>
+      <div id="logo">
+        <a href='index.html'><img src="./img/logo.png"></a>
+      </div>
+      <nav>
+        <ul id="main_menu">
+          <li><a href='page1.html'>프로그램 소개</a></li>
+          <li><a href='page2.html'>인물 소개</a></li>
+          <li><a href='page3.html'>갤러리</a></li>
+          <li><a href='page4.html'>OST</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section id="contents">
+      <nav id="sub_menu">
+        <ul>
+          <li><a href='page1.html'>▶ 기획 의도</a></li>
+          <li><a href='page1-2.html'>제작진</a></li>
+        </ul>
+      </nav>
+      <div id="main_contents">
+        <table>
+          <tr>
+            <td><br><br><img src="./img/poster1.jpg"><br><br><br></td>
+          </tr>
+          <tr>
+            <td><p id="hz">"인생 다 각자 걷고 있지만 결국 같은 곳에 다다를 우리였다.<br>
+               우리가 도착할 종착지는 영광과 새드엔딩 그 사이 어디쯤일까"</p><br><br><br><br></td>
+          </tr>
+          <tr>
+            <td><p>1905년. 미국은 필리핀을 식민지로 얻는 조건으로<br>
+               조선을 일본의 손아귀에 넘겨버리는 밀약을 체결한다.<br><br>
+
+              '가쓰라 테프트 밀약'으로 날개를 단 일본은 마침내 거친 야욕을 드러내고,<br>
+               애신의 조선은 힘없이 부서져 내리는데,<br>
+               어쩌자고 그녀는... 저렇듯 꽃처럼 예쁘단 말인가...<br><br>
+
+               대한민국 임시정부수립 99주년을 맞는 2018년 방송예정 드라마 [미스터 션샤인]은,<br>
+               미국의 이권을 위해 조선(朝鮮)에 주둔한 검은머리의 미 해군장교 유진 초이와<br>
+               조선의 정신적 지주인 고씨 가문의 마지막 핏줄인 애신 애기씨의,<br>
+               쓸쓸하고 장엄한 모던 연애사다.</p><br><br></td>
+          </tr>
+        </table>
+      </div>
+    </section>
+    <div class="clear"></div>
+
+    <footer>
+      <div id="footer_box">
+        <ul id="address">
+          <li>Web Publishing | Second project</li>
+          <li>KayWon University 22161037 이수진</li>
+        </ul>
+        <div id="footer_logo">
+          <a href='http://tvn.tving.com/tvn'><img src="./img/tvN.png"></a>
+        </div>
+      </div>
+    </footer>
+
+  </body>
+</html>
